@@ -1,0 +1,79 @@
+.bunner-section {
+  background: url('../images/bunner.jpg');
+  width: 100%;
+  height: 567px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bunner-description__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+
+}
+
+.bunner-title {
+  font-family: var(--Inter);
+  font-size: 32px;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+  color: #ffffff;
+  font-weight: 400;
+
+}
+
+.bunner-text {
+  font-family: var(--Inter);
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 0px 12px 0px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+@media (max-width: 1140px) {
+  .bunner-section {
+    height: 500px;
+  }
+
+  .bunner-description__wrapper {}
+
+  .bunner-title {}
+
+  .bunner-text {}
+
+}
+
+@media (max-width: 1000px) {
+  .bunner-section {
+    height: 400px;
+  }
+
+  .bunner-description__wrapper {}
+
+  .bunner-title {}
+
+  .bunner-text {}
+
+}
+
+@media (max-width: 666px) {
+  .bunner-section {
+    height: 300px;
+  }
+
+  .bunner-description__wrapper {}
+
+  .bunner-title {
+    font-size: 28px;
+  }
+
+  .bunner-text {
+    font-size: 17px;
+  }
+
+}

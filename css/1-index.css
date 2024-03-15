@@ -1,0 +1,58 @@
+@import url('2-header.css');
+@import url('3-bunner.css');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --hf-bg-color: #2B1100;
+  --btn-bg-color: #EC7904;
+  --link-color: #EC7904;
+  --title-size: 36px;
+  --text-size: 24px;
+  --text-line-haight: 200%;
+  --Inter: "Inter", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header,
+main,
+footer {
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+.center {
+  width: 1230px;
+  height: 100%;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1260px) {
+  .center {
+    width: 100%;
+    padding: 0px 25px;
+    margin: 0px auto;
+  }
+
+  header,
+  main,
+  footer {
+    width: 100%;
+    margin: 0px auto;
+  }
+}

@@ -1,0 +1,241 @@
+header {
+  background: var(--hf-bg-color);
+}
+
+.mobile-phone,
+.mobile-social {
+  display: none;
+}
+
+.navbar-container {
+  padding: 18px 0px 18px 0px;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: block;
+  margin: 0px 55px 0px 0px;
+  color: var(--link-color);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--Inter);
+}
+
+.navbar-brand__img {
+  display: block;
+  width: 175px;
+  height: 67px;
+  object-fit: cover;
+}
+
+.navbar-move {
+  display: none;
+}
+
+.navbar-content {
+  flex-grow: 1;
+  position: relative;
+}
+
+.navbar-close__img {
+  display: none;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link__arrow::after {
+  position: absolute;
+  content: "\2039";
+  left: 140px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.nav-link {
+  display: block;
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--link-color);
+}
+
+.nav-link__active {
+  color: var(--link-color);
+}
+
+.navbar-contacts {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-social {
+  display: block;
+}
+
+.navbar-social img {
+  width: 35px;
+  height: auto;
+}
+
+.navbar-phone {
+  display: block;
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.navbar-burger__img {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+
+  .mobile-phone,
+  .mobile-social {
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar-contacts {
+    flex-grow: 1;
+    justify-content: end;
+    padding: 0px 45px 0px 0px;
+  }
+
+  .navbar-burger__img {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+  }
+
+  .navbar-burger__img::after {
+    display: flex;
+    position: absolute;
+    content: "\2630";
+    color: var(--link-color);
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-content {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    transform: translateX(2000px);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transform: translateX(2000px);
+    -moz-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    -o-transform: translateX(2000px);
+  }
+
+  .navbar-move {
+    display: block;
+    background: #2B1100;
+    z-index: 100;
+    transform: translateX(0px);
+    padding: 50px 25px 0px 25px;
+    top: 0px;
+  }
+
+  .navbar-close__img {
+    display: block;
+    position: absolute;
+    right: 49px;
+    top: 25px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar-close__img::after {
+    position: absolute;
+    content: "\2716";
+    color: var(--link-color);
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    display: block;
+  }
+
+  .dropdown-menu__hidden {
+    position: relative;
+    display: none;
+  }
+
+
+  .navbar-nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+    position: relative;
+    flex-direction: column;
+  }
+
+}
+
+
+@media (max-width: 666px) {
+
+  .navbar-contacts {
+    display: none;
+  }
+
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    font-size: 28px;
+  }
+}
