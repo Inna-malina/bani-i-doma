@@ -40,12 +40,6 @@
     height: 500px;
   }
 
-  .bunner-description__wrapper {}
-
-  .bunner-title {}
-
-  .bunner-text {}
-
 }
 
 @media (max-width: 1000px) {
@@ -53,11 +47,6 @@
     height: 400px;
   }
 
-  .bunner-description__wrapper {}
-
-  .bunner-title {}
-
-  .bunner-text {}
 
 }
 
@@ -65,8 +54,6 @@
   .bunner-section {
     height: 300px;
   }
-
-  .bunner-description__wrapper {}
 
   .bunner-title {
     font-size: 28px;
