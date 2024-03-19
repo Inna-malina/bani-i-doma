@@ -2,6 +2,8 @@
 @import url('3-bunner.css');
 @import url('4-about.css');
 @import url('5-card.css');
+@import url('6-text.css');
+@import url('7-servises.css');
 
 * {
   margin: 0px;
@@ -55,7 +57,9 @@ a {
 }
 
 .about-section,
-.cards-section {
+.cards-section,
+.text-section,
+.servses-section {
   padding: 115px 0px 0px 0px;
 }
 
