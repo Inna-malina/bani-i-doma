@@ -1,0 +1,48 @@
+.page-about-section {
+  margin-bottom: 80px;
+}
+
+.page-general-title {
+  font-family: var(--Inter);
+  font-size: var(--title-size);
+  font-weight: 800;
+  margin: 0px 0px 40px 0px;
+
+}
+
+.page-text {
+  font-family: var(--Inter);
+  font-size: var(--text-size);
+  font-weight: 400;
+  line-height: var(--text-line-height);
+  padding: 30px 0px 30px 0px;
+}
+
+.page-features-section {}
+
+.features-title {
+  font-family: var(--Inter);
+  font-size: var(--title-size);
+  font-weight: 800;
+  padding: 80px 0px 40px 0px;
+}
+
+.features-item {
+  font-family: var(--Inter);
+  font-size: var(--text-size);
+  font-weight: 800;
+  line-height: var(--text-line-height);
+
+}
+
+.page-image {
+  width: 100%;
+  height: 600px;
+  background: url(../../images/about/about-page.jpg);
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.page-text-mark {
+  background: #D9D9D9;
+}

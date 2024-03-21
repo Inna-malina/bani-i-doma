@@ -1,12 +1,13 @@
-@import url('2-header.css');
-@import url('3-bunner.css');
-@import url('4-about.css');
-@import url('5-card.css');
-@import url('6-text.css');
-@import url('7-servises.css');
-@import url('8-reviews.css');
-@import url('9-contacts.css');
-@import url('10-footer.css');
+@import url('./general-css/2-header.css');
+@import url('./general-css/3-bunner.css');
+@import url('./general-css/4-about.css');
+@import url('./general-css/5-card.css');
+@import url('./general-css/6-text.css');
+@import url('./general-css/7-servises.css');
+@import url('./general-css/8-reviews.css');
+@import url('./general-css/9-contacts.css');
+@import url('./general-css/10-footer.css');
+@import url('./pages-css/1-about.css');
 
 * {
   margin: 0px;
@@ -62,7 +63,9 @@ a {
 .about-section,
 .cards-section,
 .text-section,
-.servses-section {
+.servses-section,
+.page-about-section,
+.page-features-section {
   padding: 115px 0px 0px 0px;
 }
 

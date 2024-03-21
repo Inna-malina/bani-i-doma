@@ -139,7 +139,7 @@
 
 
 .review-img-one {
-  background: url('../images/reviews/irina.jpg');
+  background: url('../../images/reviews/irina.jpg');
 
   background-size: cover;
   background-position: center;
@@ -148,7 +148,7 @@
 }
 
 .review-img-two {
-  background: url('../images/reviews/ksenia.jpg');
+  background: url('../../images/reviews/ksenia.jpg');
 
   background-size: cover;
   background-position: center;
@@ -157,7 +157,7 @@
 }
 
 .review-img-three {
-  background: url('../images/reviews/anna.jpg');
+  background: url('../../images/reviews/anna.jpg');
 
   background-size: cover;
   background-position: center;
@@ -166,7 +166,7 @@
 }
 
 .review-img-four {
-  background: url('../images/reviews/juriy.jpg');
+  background: url('../../images/reviews/juriy.jpg');
   background-size: cover;
   background-position: center;
   width: 50%;
