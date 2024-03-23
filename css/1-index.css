@@ -35,6 +35,12 @@ body {
 
 }
 
+@media (max-width: 1360px) {
+  body {
+    background: none;
+  }
+}
+
 ul {
   list-style-type: none;
 }
