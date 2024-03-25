@@ -12,52 +12,7 @@
 </head>
 
 <body>
-  <header>
-    <div class="center">
-      <nav class="navbar-container">
-        <div class="container-fluid">
-          <a href="" class="navbar-brand">
-            Бани и Дома
-          </a>
-          <div class="navbar-content">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link nav-link__active">Бани из бруса</a>
-              </li>
-              <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">Портфолио</a>
-              </li>
-              <li class="nav-item">
-                <a href="about.html" class="nav-link">О нас</a>
-              </li>
-              <li class="nav-item">
-                <a href="pilomaterial.html" class="nav-link">Пиломатериал</a>
-              </li>
-              <li class="nav-item mobile-social">
-                <noindex><a rel="nofollow" class="navbar-social" href="whatsapp://send?phone=89039000315"
-                    target="_blank">
-                    <img src="images/social/whatsapp.png" alt="Whatsapp">
-                  </a></noindex>
-              </li>
-              <li class="nav-item mobile-phone">
-                <a class="navbar-phone" href="tel:+79231828848">8-913-917-06-10</a>
-              </li>
-            </ul>
-            <div class="navbar-close__img">
-            </div>
-          </div>
-          <div class="navbar-contacts">
-            <noindex><a rel="nofollow" class="navbar-social" href="whatsapp://send?phone=89039000315" target="_blank">
-                <img src="images/social/whatsapp.png" alt="Whatsapp">
-              </a></noindex>
-            <noindex><a rel="nofollow" class="navbar-phone" href="tel:+79231828848">8-913-917-06-10</a></noindex>
-          </div>
-          <div class="navbar-burger__img">
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <?php include('header.php'); ?>
   <main>
     <section class="bunner-section">
       <div class="center">
@@ -107,75 +62,17 @@
             из бруса 100 на 150
           </div>
           <div class="cards-flex-container">
-            <div class="card-box">
-              <img src="images/cards/2х3.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 2 Х 3</div>
-              <div class="card-description">Сруб без установки - 110 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/2,4х3,6.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 2.4 x 3.6</div>
-              <div class="card-description">Сруб без установки - 130 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/2,5х4.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 2.5 x 4</div>
-              <div class="card-description">Цена без печи - 250 940 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/3x4.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 3 x 4</div>
-              <div class="card-description">Сруб без установки - 176 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/3,1x4.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 3.1 x 4</div>
-              <div class="card-description">Сруб без установки - 176 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/3,5х4.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 3.5 x 4</div>
-              <div class="card-description">Сруб без установки - 176 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/4х4.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 4 x 4</div>
-              <div class="card-description">Сруб без установки - 176 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/4х6.jpg" alt="" class="card-img">
-              <div class="card-title">Баня 4 x 6</div>
-              <div class="card-description">Сруб без установки - 176 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/3х4-терраса.jpg" alt="" class="card-img">
-              <div class="card-title">Баня c террасой 3 x 4 </div>
-              <div class="card-description">Сруб без установки - 176 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
-
-            <div class="card-box">
-              <img src="images/cards/3,5х4-терраса.jpg" alt="" class="card-img">
-              <div class="card-title">Баня c террасой 3.5 x 4</div>
-              <div class="card-description">Сруб без установки - 176 000 руб.</div>
-              <noindex><a href="#" class="card-button" rel="nofollow">Подробнее</a></noindex>
-            </div>
+            <?php
+            require_once 'data.php';
+            $arrLength = count($arr_images);
+            for ($i = 0; $i < $arrLength; $i++) { ?>
+              <div class="card-box" id="<?php echo $arr_images[$i]['id']  ?>">
+                <img src="images/cards/<?php echo $arr_images[$i]['src'] ?>" alt="баня <?php echo $arr_images[$i]['card-title'] ?>" class="card-img">
+                <div class="card-title">Баня <?php echo $arr_images[$i]['card-title'] ?></div>
+                <div class="card-description"><?php echo $arr_images[$i]['card-descr'] ?></div>
+                <noindex><a href="bania.php?object=<?php echo $i ?>" class="card-button" rel="nofollow">Подробнее</a></noindex>
+              </div>
+            <?php  } ?>
 
           </div>
         </div>
@@ -189,8 +86,7 @@
           <div class="text-description__box">
             Если вы не нашли подходящий вариант бани у нас на сайте, мы можем построить баню под ключ по вашему
             индивидуальному проекту. Расчёт стоимости произведём бесплатно и быстро, для этого достаточно отправить нам
-            план бани. Можно план бани, нарисованный от руки, сфотографировать и отправить через <noindex><a
-                rel="nofollow" href="whatsapp://send?phone=89039000315" target="_blank">WhatsApp</a></noindex>,
+            план бани. Можно план бани, нарисованный от руки, сфотографировать и отправить через <noindex><a rel="nofollow" href="whatsapp://send?phone=89039000315" target="_blank">WhatsApp</a></noindex>,
             или на почту
             direct.2990610@yandex.ru
              
@@ -285,9 +181,7 @@
                 раньше. Александр и Иван добросовестно, за 4 дня подвели баню под крышу.
               </div>
               <noindex>
-                <a rel="nofollow"
-                  href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-8483383"
-                  class="reiew-link">Читать полностью</a>
+                <a rel="nofollow" href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-8483383" class="reiew-link">Читать полностью</a>
               </noindex>
             </div>
             <div class="review-img__box review-img-one"></div>
@@ -308,9 +202,7 @@
                 заранее, чтобы оставить предоплату и обсудить план бани. Все прошло без нареканий 
               </div>
               <noindex>
-                <a rel="nofollow"
-                  href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-7001449"
-                  class="reiew-link">Читать полностью</a>
+                <a rel="nofollow" href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-7001449" class="reiew-link">Читать полностью</a>
               </noindex>
             </div>
             <div class="review-img__box review-img-two"></div>
@@ -331,9 +223,7 @@
                 заказа на изготовление бани и личной встрече с руководителем фирмы
               </div>
               <noindex>
-                <a rel="nofollow"
-                  href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-6935357"
-                  class="reiew-link">Читать полностью</a>
+                <a rel="nofollow" href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-6935357" class="reiew-link">Читать полностью</a>
               </noindex>
             </div>
             <div class="review-img__box review-img-three"></div>
@@ -353,9 +243,7 @@
                 процесс: 6 мая приехали двое
               </div>
               <noindex>
-                <a rel="nofollow"
-                  href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-5216744"
-                  class="reiew-link">Читать полностью</a>
+                <a rel="nofollow" href="https://novosibirsk.flamp.ru/firm/bani_i_doma_stroitelno_torgovaya_kompaniya-141265771996642/otzyv-5216744" class="reiew-link">Читать полностью</a>
               </noindex>
             </div>
             <div class="review-img__box review-img-four"></div>
@@ -395,69 +283,15 @@
           </div>
         </div>
         <div class="map-block">
-          <iframe
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3A60bdb8ca391eb90ad0d89cf838f7f53c57fbe62462fe76709c0bd1fbe2c6acfb&amp;source=constructor"
-            width="100%" frameborder="0" title="yandex-map"></iframe>
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A60bdb8ca391eb90ad0d89cf838f7f53c57fbe62462fe76709c0bd1fbe2c6acfb&amp;source=constructor" width="100%" frameborder="0" title="yandex-map"></iframe>
         </div>
       </div>
     </section>
   </main>
-  <footer>
-    <div class="center">
-      <nav class="footer-navbar-container">
-        <div class="footer-container-fluid">
-
-          <a href="index.html" class="footer-navbar-brand">
-            Бани и Дома
-          </a>
-
-          <div class="footer-navbar-content">
-            <ul class="footer-navbar-nav">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link nav-link__active">Бани из бруса</a>
-              </li>
-              <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">Портфолио</a>
-              </li>
-              <li class="nav-item">
-                <a href="about.html" class="nav-link">О нас</a>
-              </li>
-              <li class="nav-item">
-                <a href="pilomaterial.html" class="nav-link">Пиломатериал</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-navbar-contacts">
-            <noindex><a rel="nofollow" class="footer-navbar-social" href="whatsapp://send?phone=89039000315"
-                target="_blank">
-                <img src="images/social/whatsapp.png" alt="Whatsapp">
-              </a></noindex>
-            <noindex><a rel="nofollow" class="footer-navbar-phone" href="tel:+79231828848">8-913-917-06-10</a>
-            </noindex>
-
-          </div>
-
-        </div>
-        <div class="other-iformation-block">
-          <div class="other-adress">
-            <a
-              href="https://ru.freepik.com/free-vector/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos_17221200.htm#fromView=search&page=1&position=9&uuid=3ed95140-b833-4f16-9d83-6551561469f3">Изображения
-              иконок
-              от rawpixel.com</a> на Freepik
-          </div>
-          <div class="other-adress">
-            Разработка и продвижение сайтов
-            <a href="tel:+79231828848">8-923-182-88-48</a>
-          </div>
-        </div>
-      </nav>
-
-    </div>
-  </footer>
+  <?php include('footer.php'); ?>
   <script src="js/header.js"></script>
-  <script src="js/sevises.js"></script>
-  <script src="js/sringcount.js"></script>
+  <script src="js/servises.js"></script>
+  <script src="js/stringcount.js"></script>
   <script src="js/sliderreview.js"></script>
 </body>
 
