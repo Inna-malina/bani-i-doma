@@ -125,6 +125,7 @@ footer {
 }
 
 .other-adress a {
+  display: block;
   color: #ffffff;
   font-size: 12px;
   font-family: var(--Inter);

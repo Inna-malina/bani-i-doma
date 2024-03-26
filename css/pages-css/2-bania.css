@@ -1,0 +1,94 @@
+.bania-foto__section {
+  padding: 80px 0px 115px 0px;
+}
+
+.breadcrumps a {
+  color: black;
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.breadcrumps span {
+  color: var(--link-color);
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bania-wrapper {}
+
+.bania-wrapper__title {
+  margin: 30px 0px 25px 0px;
+  color: black;
+  font-family: var(--Inter);
+  font-size: var(--title-size);
+  font-weight: 800;
+}
+
+.bania-flexbox {
+  margin: 30px 0px 25px 0px;
+  display: flex;
+  gap: 30px;
+}
+
+.bania-img__box {
+  width: 50%;
+}
+
+.bania-general {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.bania-scheme__box {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 30px 0px 0px 0px;
+
+}
+
+.bania-scheme {
+  display: block;
+  width: 48%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.bania-description__box {
+  width: 40%;
+}
+
+.bania-description p {
+  color: black;
+  font-family: var(--Inter);
+  font-size: var(--text-size);
+  line-height: var(--text-line-height);
+  font-weight: 400;
+}
+
+.bania-description__general {
+  padding: 30px 0px 0px 0px;
+}
+
+.bania-description-title {
+  color: black;
+  font-family: var(--Inter);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.bania-description__list {
+  margin: 30px 0px 0px 0px;
+}
+
+.bania-description__item {
+  color: black;
+  font-family: var(--Inter);
+  font-size: var(--text-size);
+  line-height: var(--text-line-height);
+  font-weight: 400;
+}

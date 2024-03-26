@@ -2,9 +2,9 @@
   <div class="center">
     <nav class="navbar-container">
       <div class="container-fluid">
-        <a href="index.php" class="navbar-brand">
-          Бани и Дома
-        </a>
+        <noindex><a rel="nofollow" href="index.php" class="navbar-brand">
+            Бани и Дома
+          </a></noindex>
         <div class="navbar-content">
           <ul class="navbar-nav">
             <li class="nav-item">

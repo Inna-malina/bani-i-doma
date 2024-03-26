@@ -8,6 +8,8 @@
 @import url('./general-css/9-contacts.css');
 @import url('./general-css/10-footer.css');
 @import url('./pages-css/1-about.css');
+@import url('./pages-css/2-bania.css');
+
 
 * {
   margin: 0px;
