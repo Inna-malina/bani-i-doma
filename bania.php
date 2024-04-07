@@ -32,25 +32,22 @@ $item = $arr_images[$_GET['object']];
           </h1>
           <div class="bania-flexbox">
             <div class="bania-img__box">
-              <img class="bania-general" src="images/cards/<?php echo $item['src'] ?>" alt="баня <?php echo $item['cars-title'] ?>">
+              <img class="bania-general" src="images/cards/<?php echo $item['src'] ?>" alt="баня <?php echo $item['card-title'] ?>">
               <div class="bania-scheme__box">
-                <img class="bania-scheme" src="images/cards/<?php echo $item['src'] ?>" alt="баня <?php echo $item['cars-title'] ?>">
-                <img class="bania-scheme" src="images/cards/<?php echo $item['src'] ?>" alt="баня <?php echo $item['cars-title'] ?>">
+                <img class="bania-scheme" src="images/src-plan-3d/<?php echo $item['src-plan-3d'] ?>" alt="баня <?php echo $item['card-title'] ?>">
+                <img class="bania-scheme" src="images/src-plan-2d/<?php echo $item['src-plan-2d'] ?>" alt="баня <?php echo $item['card-title'] ?>">
               </div>
             </div>
             <div class="bania-description__box">
               <div class="bania-description">
                 <p>
-                  -Жил старик со своею старухой
-                  У самого синего моря;
+                  <?php echo $item['bania-descr-one'] ?>
                 </p>
                 <p>
-                  -Они жили в ветхой землянке
-                  Ровно тридцать лет и три года.
+                  <?php echo $item['bania-descr-two'] ?>
                 </p>
                 <p>
-                  -Старик ловил неводом рыбу,
-                  Старуха пряла свою пряжу.
+                  <?php echo $item['bania-descr-three'] ?>
                 </p>
               </div>
 

@@ -67,10 +67,12 @@
             $arrLength = count($arr_images);
             for ($i = 0; $i < $arrLength; $i++) { ?>
               <div class="card-box" id="<?php echo $arr_images[$i]['id']  ?>">
-                <img src="images/cards/<?php echo $arr_images[$i]['src'] ?>" alt="баня <?php echo $arr_images[$i]['card-title'] ?>" class="card-img">
+                <a href="bania.php?object=<?php echo $i ?>">
+                  <img src="images/cards/<?php echo $arr_images[$i]['src'] ?>" alt="баня <?php echo $arr_images[$i]['card-title'] ?>" class="card-img">
+                </a>
                 <div class="card-title">Баня <?php echo $arr_images[$i]['card-title'] ?></div>
                 <div class="card-description"><?php echo $arr_images[$i]['card-descr'] ?></div>
-                <noindex><a href="bania.php?object=<?php echo $i ?>" class="card-button" rel="nofollow">Подробнее</a></noindex>
+                <a href="bania.php?object=<?php echo $i ?>" class="card-button">Подробнее</a>
               </div>
             <?php  } ?>
 

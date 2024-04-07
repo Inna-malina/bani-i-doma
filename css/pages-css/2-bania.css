@@ -65,9 +65,10 @@
 .bania-description p {
   color: black;
   font-family: var(--Inter);
-  font-size: var(--text-size);
-  line-height: var(--text-line-height);
+  font-size: 22px;
+  line-height: 160%;
   font-weight: 400;
+  margin: 0px 0px 20px 0px;
 }
 
 .bania-description__general {
